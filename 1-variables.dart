@@ -4,6 +4,7 @@ void main() {
   final List<String> habilidades = ['smash, pushSmash'];
   final items = <String>['wood'];
 
+//dynamic: La variable puede ser  cualquier tipo de dato. Inicialmente es null
   dynamic random = {1, 3, 5, 7, 9};
   random = "Hola panca";
   random = true;
