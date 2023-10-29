@@ -1,5 +1,3 @@
-import 'dart:async';
-
 void main() {
 //Números
 
@@ -36,9 +34,16 @@ void main() {
   Map<String, dynamic> personajes = new Map();
   personajes.addAll(personaje);
   print(personajes);
-  var _ = 1;
-  print(_);
+
+  //Print para que no me salte advertencia
+  print("""
+  $personajes $personaje $random $Humano $demonio $habilidades $hd $numero $user
+  """);
 }
 
-  //dynamic: La variable puede ser  cualquier tipo de dato. Inicialmente es null
+  /*dynamic: La variable puede ser  cualquier tipo de dato. Inicialmente es 
+  null
+  Convertir de list a set: .toSet
+  Convertir de set a list: .toList*/
+
 
