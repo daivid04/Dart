@@ -1,3 +1,4 @@
+// ignore_for_file: unused_local_variable
 void main() {
   List<String> Dbz = ['Goku', 'Vegeta', 'Gohan', 'Gotenks'];
   print('Los dioses del anime');
