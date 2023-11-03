@@ -1,6 +1,10 @@
 void main() {
   int a = 5;
   int b = 2;
+  // a = b++; a = 2 y b = 3
+  // a = ++b; a 3 y b = 3
+  print(b);
+  print(a);
   final int resultado1 = a + b;
   final int resultado2 = a - b;
   final int resultado3 = a * b;
@@ -16,6 +20,6 @@ void main() {
   Multiplicación   : $resultado3
   División         : $resultado4
   Resto            : $resultado5
-  División(entero) : $resultado6 
+  División(entero) : $resultado6
   """);
 }
